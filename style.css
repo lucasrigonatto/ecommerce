@@ -303,6 +303,15 @@ body {
   position: absolute;
   bottom: 20px;
   right: 10px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.cart-count:not(:empty) {
+  margin-left: 4px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #088178;
 }
 
 #banner {
